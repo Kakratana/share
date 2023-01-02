@@ -2,6 +2,13 @@
   <div>
     <div id="capture" ref="element" style="padding: 10px; background: #f5da55">
       <h4 style="color: #000">ប្រវត្តិសាស្ត្រ</h4>
+      <form >
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+      </form>
     </div>
 
     <br />
@@ -9,6 +16,9 @@
     <button @click="share">share please</button>
   </div>
 </template>
+
+
+
 
 <script>
 import html2canvas from 'html2canvas'
